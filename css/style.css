@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Pacifico;
+    
+}
+body{
+    background:rgb(237, 218, 222)
+}
+.container{
+    width: 100%;
+    font-size: 20px;
+
+}
+.title{
+    font-weight: bold;
+
+}
+.photo{
+    width: 35%;
+    height: 15%;
+    border-radius: 10%;
+    margin-left: 60px;
+}
+.title{
+    color: rgb(255, 95, 188);
+    
+}
+.text{
+    width: 70%;
+    color: rgb(255, 128, 149);
+}
+.title1{
+    text-align: center;
+}
+.section{
+    display: flex;
+    align-content: space-evenly;
+    width: 100%;
+    height: 21%;
+}
+.button{
+    background: lightpink;
+    width: 15%;
+    height: 13%;
+    border: 1px inset palevioletred;
+    border-radius: 5%;
+    font-size: 1.5rem;
+    color: rgb(212, 121, 121);
+}
+.container-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    height: 13%;
+    width: 50%;
+}
+.section1-box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 12%;
+}
+.header{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 18%;
+}
+.nav{
+        width: 1024px;
+        height: 200px;;
+        background: pink;
+        border-radius: 5%;
+        border: 5px groove black;
+        margin-bottom:16px;
+
+}
+.footer{
+    width: 1024px;
+    height: 300px;;
+    background: pink;
+    border-radius: 5%;
+    border: 5px groove black;
+    margin:0 auto;         
+
+}
+
+.text1{
+    width: 45%;
+    height: 12%;
+    background: pink;
+    border-radius: 5%;
+    border: 5px groove black;
+}
+.text2{
+    width: 40%;
+    height: 13%;
+    background: pink;
+    border-radius: 5%;
+    border: 5px groove black;
+}
+.section-box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    margin-top: 5px;
+
+}
+.button1, .button2{
+    width: 20%;
+    height: 17%;
+    background: pink;
+
+}
+.button3,.button4,.button5{
+    width: 16%;
+    height: 24%;
+    background:white;
+    margin:5px;
+
+}
+.button-header{
+    display:flex;
+    justify-content: center;
+    margin:2rem;
+}
+.section2-photo{
+    display: flex;
+    align-items: center;
+    height: 600px;
+   
+}
+.photo1{
+    width: 250px;
+    height: 250px;
+}
+.photo2{
+    width: 250px;
+    height: 250px;
+}
+.photo3{
+    width: 250px;
+    height: 250px;
+}
+#section2{
+    display: flex;
+    width: 100%;
+}
+.section2-title{
+    text-align: center;
+    color:rgb(255, 95, 188) ;
+}
+.section2-button{
+    color: pink;
+    width: 20%;
+    height: 5%;
+    background: black;
+    border: 1px solid pink;
+
+}
+.section2-text{
+    color:rgb(255, 128, 149) ;
+}
+ul{
+    list-style:"\1F601";
+    padding-left: 25px;
+}
+.header-h{
+    font-size:1.5rem;
+    text-align:center;
+    margin:10px;
+}
+.box2{
+    display:flex;
+   
+}
+.instagram,.telegram,.viber{
+    border-radius: 60%;
+    height:60px;
+}
